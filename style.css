@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 75vw;
+  height: auto;
+  /* border: 1px solid black; */
+  padding: 5px;
+  margin: auto;
+}
+.item-list {
+  list-style: none;
+}
+.get-input[type="text"] {
+  font-size: 1.5rem;
+  width: 69vw;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.add-new {
+  min-width: 50px;
+  width: 5vw;
+  height: 2rem;
+  margin-top: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+.items {
+  height: 1.5rem;
+  position: relative;
+  margin-left: -40px;
+  border: 1px solid black;
+  /* background-color: aqua; */
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: aqua;
+}
+.cross {
+  position: absolute;
+  font-size: 1.80rem;
+  right: 0px;
+  padding: 5px;
+  bottom: 0.9px;
+}
+.cross:hover{
+    background-color: red;
+}
+.items:hover {
+  cursor: pointer;
+}
+.checked {
+  text-decoration: line-through;
+}
+.header {
+  width: 100vw;
+  height: 200px;
+  font-size: 2rem;
+  background-color: black;
+  margin-bottom: 10px;
+}
+.header span {
+  margin-left: 50vw;
+  color: aliceblue;
+}
+
+.header div {
+  width: 75vw;
+  height: auto;
+  /* background-color: aliceblue; */
+  margin: auto;
+  margin-top: 50px;
+}
+.header div input {
+  padding: 5px;
+  font-size: 1.5rem;
+  width: 69vw;
+  display: inline-block;
+}
+.header div button {
+  min-width: 50px;
+  width: 5vw;
+  height: 2rem;
+  margin-top: 0px;
+  display: inline-block;
+  vertical-align: bottom;
+}
