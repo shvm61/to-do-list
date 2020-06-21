@@ -69,7 +69,7 @@ function searchItem(e) {
   for (let i = 0; i < item.length; i++) {
     // console.log(text, item[i].textContent.toLowerCase());
 
-    if (item[i].textContent.toLowerCase().indexOf(text) != -1) {
+    if (item[i].textContent.toLowerCase().indexOf(text.toLowerCase()) != -1) {
       item[i].style.display = "block";
     } else {
       item[i].style.display = "none";
